@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="orderonlineStyles.css">
+</head>
+<body>
+    <a href="dashboard.html">Back to Home Page</a>
+
+    <div id="s1">
+    <h2>We are happy to serve you!!</h2>
+    <h3>Select your order</h3>
+    <form action="">
+        <label>Menu</label>
+        <select name="menu">
+    <option>--Select menu--</option>
+    <option value="Pizza">Pizza</option>
+    <option value="Sandwich">Sandwich</option>
+    <option value="Beverages">Beverages</option>
+    <option value="Desserts">Desserts</option>
+    </select><br/>
+    </form>
+</div>
+
+    <hr>
+    
+    <div id="s2">
+    <h2>How would you like to pay?</h2>
+    <h3><font style="color: crimson;">Cash on delivery is not available to ensure 100% safety</font></h3>
+   
+    <form action="orderconfirm.html">
+        <label>Payment Details</label>
+        <input type="radio" name="gg" value="Credit Card"/>Credit Card
+<input type="radio" name="gg" value="Debit Card"/>Debit Card<br/>
+    <label>Card Number</label>
+    <input type="text" required><br>
+    <label>Name on the card</label>
+    <input type="text" required><br>
+    <label>CVV</label>
+    <input type="text" required><br>
+    <input type="submit">
+    <input type="button" value="Cancel">
+    </form>
+</div>
+</body>
+</html>
